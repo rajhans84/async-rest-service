@@ -1,9 +1,9 @@
 {
     "name": "raj/php-service",
-    "type": "library",
+    "type": "project",
     "autoload": {
         "psr-4": {
-            "BearClaw\\": "src/BearClaw/"
+            "BearClaw\\Warehousing\\": "src/BearClaw/Warehousing/"
         }
     },
     "require-dev": {
@@ -14,5 +14,8 @@
             "name": "Raj",
             "email": "rajhans.nz@gmail.com"
         }
-    ]
+    ],
+    "require": {
+        "amphp/http-client": "^4.3"
+    }
 }
